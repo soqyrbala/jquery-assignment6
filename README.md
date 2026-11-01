@@ -1,7 +1,7 @@
 # Assignment #6. jQuery (Selectors, Effects, Animations)
 
 **Student:** Saginbek Mansur  **Group:** SE-2528
-**Live demo:** https://github.com/soqyrbala/jquery-assignment6
+**Live demo:** https://soqyrbala.github.io/jquery-assignment6/
 
 ## Description
 A multi-page static website demonstrating jQuery 3.7.1 (loaded from the official CDN). Every page has a navbar linking to all parts of the assignment.
