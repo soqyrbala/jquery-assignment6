@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part 5. Mini Project: Image Gallery | jQuery Assignment 6</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar"><span class="brand">jQuery A6</span><a href="index.html">Part 1: Basics</a><a href="effects.html">Part 2: Effects</a><a href="dom.html">Part 3: DOM</a><a href="animations.html">Part 4: Animations</a><a href="project.html" class=active>Part 5: Mini Project</a></nav>
+<main>
+<h1>Part 5. Mini Project: Image Gallery</h1>
+
+<section class="card" id="task11">
+<h2>Task 11. Image Gallery</h2>
+<p>Thumbnails fade in on load, fade on hover, filter with fade effects, and enlarge on click.</p>
+<div class="btn-row">
+<button class="filter" data-filter="all">All</button>
+<button class="filter secondary" data-filter="warm">Warm</button>
+<button class="filter secondary" data-filter="cool">Cool</button>
+</div>
+<div class="gallery"><figure class="thumb" data-cat="warm" data-full="images/pic1.svg" data-title="Sunrise"><img src="images/pic1.svg" alt="Sunrise"><figcaption>Sunrise</figcaption></figure><figure class="thumb" data-cat="cool" data-full="images/pic2.svg" data-title="Ocean"><img src="images/pic2.svg" alt="Ocean"><figcaption>Ocean</figcaption></figure><figure class="thumb" data-cat="cool" data-full="images/pic3.svg" data-title="Forest"><img src="images/pic3.svg" alt="Forest"><figcaption>Forest</figcaption></figure><figure class="thumb" data-cat="warm" data-full="images/pic4.svg" data-title="Desert"><img src="images/pic4.svg" alt="Desert"><figcaption>Desert</figcaption></figure><figure class="thumb" data-cat="cool" data-full="images/pic5.svg" data-title="Glacier"><img src="images/pic5.svg" alt="Glacier"><figcaption>Glacier</figcaption></figure><figure class="thumb" data-cat="warm" data-full="images/pic6.svg" data-title="Volcano"><img src="images/pic6.svg" alt="Volcano"><figcaption>Volcano</figcaption></figure></div>
+</section>
+<div id="lightbox" class="lightbox"><figure><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure></div>
+
+</main>
+<footer>Assignment #6 &middot; jQuery &middot; Student: Full Name &middot; Group: Your Group</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/project.js"></script>
+</body>
+</html>

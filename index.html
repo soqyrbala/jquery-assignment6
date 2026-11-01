@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part 1. Getting Started with jQuery | jQuery Assignment 6</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar"><span class="brand">jQuery A6</span><a href="index.html" class=active>Part 1: Basics</a><a href="effects.html">Part 2: Effects</a><a href="dom.html">Part 3: DOM</a><a href="animations.html">Part 4: Animations</a><a href="project.html">Part 5: Mini Project</a></nav>
+<main>
+<h1>Part 1. Getting Started with jQuery</h1>
+
+<section class="card" id="task0">
+<h2>Task 0. Setup</h2>
+<p>jQuery is loaded from a CDN and the code runs inside <code>$(document).ready()</code>.
+Open the browser console (F12) to see the message.</p>
+<p id="ready-status" class="status">Waiting for jQuery...</p>
+</section>
+
+<section class="card" id="task1">
+<h2>Task 1. Selectors &amp; CSS</h2>
+<h3 id="demo-title">I am an h3 with id="demo-title"</h3>
+<p class="note">Paragraph with class "note" (1)</p>
+<p class="note">Paragraph with class "note" (2)</p>
+<ul><li>List item (tag li)</li><li>List item (tag li)</li><li>List item (tag li)</li></ul>
+<div class="btn-row">
+<button id="btn-text">.text() by ID</button>
+<button id="btn-html">.html() by class</button>
+<button id="btn-css">.css() by tag</button>
+<button id="btn-reset" class="secondary">Reset</button>
+</div>
+</section>
+
+</main>
+<footer>Assignment #6 &middot; jQuery &middot; Student: Full Name &middot; Group: Your Group</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/part1.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Part 3. DOM Manipulation with jQuery | jQuery Assignment 6</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar"><span class="brand">jQuery A6</span><a href="index.html">Part 1: Basics</a><a href="effects.html">Part 2: Effects</a><a href="dom.html" class=active>Part 3: DOM</a><a href="animations.html">Part 4: Animations</a><a href="project.html">Part 5: Mini Project</a></nav>
+<main>
+<h1>Part 3. DOM Manipulation with jQuery</h1>
+
+<section class="card" id="task5">
+<h2>Task 5. Add &amp; Remove Elements</h2>
+<ul id="item-list"><li>Item 1</li><li>Item 2</li></ul>
+<div class="btn-row">
+<button id="btn-add">Add Item (append)</button>
+<button id="btn-prepend">Add to top (prepend)</button>
+<button id="btn-remove" class="secondary">Remove Item</button>
+</div>
+</section>
+
+<section class="card" id="task6">
+<h2>Task 6. Modifying Attributes</h2>
+<img id="attr-img" class="demo-img" src="images/pic1.svg" alt="Changing image">
+<p>Current src: <code id="src-out">images/pic1.svg</code></p>
+<div class="btn-row"><button id="btn-src">Change image src</button></div>
+<p><a id="attr-link" href="https://api.jquery.com" target="_blank" rel="noopener">jQuery API</a>
+&mdash; href: <code id="href-out">https://api.jquery.com</code></p>
+<div class="btn-row"><button id="btn-href">Change link href</button></div>
+</section>
+
+<section class="card" id="task7">
+<h2>Task 7. Form Interaction</h2>
+<div class="form">
+<label>Name <input type="text" id="in-name" placeholder="Your name"></label>
+<label>Email <input type="email" id="in-email" placeholder="you@example.com"></label>
+</div>
+<div class="live">
+<p>Name: <strong id="out-name">&mdash;</strong></p>
+<p>Email: <strong id="out-email">&mdash;</strong></p>
+</div>
+</section>
+
+</main>
+<footer>Assignment #6 &middot; jQuery &middot; Student: Full Name &middot; Group: Your Group</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/dom.js"></script>
+</body>
+</html>
